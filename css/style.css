@@ -80,11 +80,17 @@ li a {
 .dropdown {
     position: absolute;
     top: 44px;
-    left: -48px;
-    width: 267px;
+    left: -82px;
+    width: 329px;
     background-color: white;
     padding-left: 32px;
     padding-right: 32px;
+
+    display: none;
+}
+
+.dropdown .active {
+    display: block;
 }
 
 .dropdown .menu li {
