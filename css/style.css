@@ -89,10 +89,10 @@ li a {
     display: none;
 }
 
-.dropdown .active {
+.dropdown .menu li {
     display: block;
 }
 
-.dropdown .menu li {
+.dropdown.active {
     display: block;
 }
