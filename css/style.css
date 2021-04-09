@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(241, 241, 241);
+}
+
 img {
     width: 100%;
     display: block;
@@ -48,6 +52,7 @@ li {
     display: inline-block;
     line-height: 17px;
     padding: 10px;
+    position: relative;
 }
 
 li a {
@@ -72,6 +77,16 @@ li a {
 
 
 /*STILE MENU A COMPARSA*/
-.menu-down {
-    
+.dropdown {
+    position: absolute;
+    top: 44px;
+    left: -48px;
+    width: 267px;
+    background-color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.dropdown .menu li {
+    display: block;
 }
