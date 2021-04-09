@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*INIZIO MENU*/
+
+.logo img {
+    width: 160px;
+    height: auto;
+}
+
+.wrapper {
+    display: flex;
+}
+
+
+/* .personale, .tariffazione, .conti, .prodotti, .azienda, .aiuta, .lenguage {
+    line-height: 50px;
+}
+
+.business {
+    padding-right: 300px;
+    line-height: 50px;
+} */
+
+nav {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    line-height: 17px;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.distanziamento {
+    padding-right: 235px;
+}
+
+.bottone {
+    background-color: #eb008e;
+    color: white;
+    padding: 10px;
+    border-radius: 23px;
+    font-weight: bold;
+}
+
+/*FINE MENU*/
+
+
+
+/*STILE MENU A COMPARSA*/
+.menu-down {
+    
+}
